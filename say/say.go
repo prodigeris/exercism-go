@@ -38,7 +38,7 @@ func say(n int64) string {
 		50: "fifty",
 		60: "sixty",
 		70: "seventy",
-		80: "e	ighty",
+		80: "eighty",
 		90: "ninety",
 	}
 
