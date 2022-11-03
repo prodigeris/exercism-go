@@ -42,6 +42,6 @@ $ go test -race
 ## Resources
 If you are new to concurrent operations in Go it will be worth looking at the sync package, specifically Mutexes:
 
-Official documentation for package sync
-Tour Of Go: sync.Mutex
-Go By Example: sync.Mutex
+[Official documentation for package sync](https://golang.org/pkg/sync/)
+[Tour Of Go: sync.Mutex](https://tour.golang.org/concurrency/9)
+[Go By Example: sync.Mutex](https://gobyexample.com/mutexes)
