@@ -1,10 +1,12 @@
 package main
 
 import (
-	"exercism/say"
+	account "exercism/bank-account"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(say.Say(1000000))
+	a := account.Open(100)
+	a.Close()
+	fmt.Println(a.Balance())
 }
