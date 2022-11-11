@@ -1,10 +1,10 @@
 package main
 
 import (
-	"exercism/isogram"
+	"exercism/clock"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(isogram.IsIsogram("lumberjacks"))
+	fmt.Println(clock.New(-1, -160).String())
 }
