@@ -1,10 +1,10 @@
 package main
 
 import (
-	stateoftictactoe "exercism/state-of-tic-tac-toe"
+	bottlesong "exercism/bottle-song"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(stateoftictactoe.StateOfTicTacToe([]string{"OXX", "OOX", "X O"}))
+	fmt.Println(bottlesong.Recite(10, 1))
 }
