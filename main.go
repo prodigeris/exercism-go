@@ -1,10 +1,10 @@
 package main
 
 import (
-	"exercism/clock"
+	stateoftictactoe "exercism/state-of-tic-tac-toe"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(clock.New(-1, -160).String())
+	fmt.Println(stateoftictactoe.StateOfTicTacToe([]string{"OXX", "OOX", "X O"}))
 }
