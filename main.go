@@ -1,10 +1,10 @@
 package main
 
 import (
-	"exercism/twelve-days"
+	"exercism/isogram"
 	"fmt"
 )
 
 func main() {
-	fmt.Println(twelve.Song())
+	fmt.Println(isogram.IsIsogram("lumberjacks"))
 }
